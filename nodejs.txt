@@ -1,0 +1,29 @@
+=> blocking / non blocking and synchronous and asynchronous
+=> installation of nodejs and nvm
+
+=> When you install a JS drag-and-drop package in your React app
+It is a dependency because your app depends on it.
+It is a library because it provides reusable code.
+It may also be considered a plugin if it extends the functionality of another system or framework (like React).
+
+=> Builtin Globals in Node
+Global variables in NodeJS are variables that can be declared with a value, and which can be accessed anywhere in a program. The scope of global variables is not limited to the function scope or any particular JavaScript file. It can be declared in one place and then used in multiple places. 
+Node js has a number of inbuilt globals like any other javascript framework. These inbuilt globals help us to develop any kind of new feature without writing much logic in our program. By using these built-in globals, we just need to call these predefined functions with proper parameters
+e.g console, global, setTimeout , setInterval etc
+
+=> Concept of Module system
+A module system is a way to organize and structure code into separate, reusable blocks or "modules," which can be easily loaded, reused, and maintained. Modules encapsulate functionality, such as variables, functions, and classes, and export them so they can be imported into other parts of an application. This approach helps avoid code duplication, makes code more maintainable, and promotes reuse across different parts of a project or even across different projects.
+ #common js 
+  It uses module.export to export functions, objects , variables
+  uses 	require() to import
+  Default
+
+ #ecma6
+ It uses export , named export and import statement
+ To use ecma6 module system we have to Save the file with .mjs extension, or
+ Add { "type": "module" } in the nearest package.json
+ For React (Frontend): No additional setup is needed. ES6+ is supported out of the box in modern React environments (like   Create React App).
+
+=> 
+
+ 
